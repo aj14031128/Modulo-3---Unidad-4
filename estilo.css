@@ -1,0 +1,38 @@
+.cajarojo{background-color: red;
+width: 100px;
+height: 100px;
+display: flex;
+align-items: center;
+align-content: center;
+justify-content: center;
+border-color: black;
+border-width: 2px;
+border-style:solid;}
+
+.cajaverde{background-color:green;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    border-color: black;
+    border-width: 2px;
+    border-style:solid;
+margin: 50px;}
+
+.cajaazul{background-color: blue;
+        width: 100px;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        border-color: black;
+        border-width: 2px;
+        border-style:solid;}
+
+.contenedor{display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;}

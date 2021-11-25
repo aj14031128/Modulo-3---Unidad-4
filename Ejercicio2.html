@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>EJERCICIO 2</h1>
+
+    <script>
+
+function contador(cantidad){
+    document.getElementById("text").innerHTML = cantidad.value.length+' caracteres';
+}
+    </script>
+
+<p id=>Ingrese un texto a continuación</p>
+
+<textarea name="mensaje" onkeyup="contador(this);">
+</textarea>
+
+<p id="text">0 caracteres</p>
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>EJERCICIO 3</h1>
+
+    <script>
+
+    var notas=[
+            ["Juan Gomez",7],
+            ["Pedro Rodriguez",4],
+            ["Roxana García",8],
+            ["Luciano Lopez",5],
+            ["Fernanda Gimenez",6],
+            ["Florencia Martinez",10],
+            ["Raul Sanchez",7],
+            ["Sandra Figueroa",8]]
+    var aprobados=0
+    var final=[]
+
+
+    for(var i=0;i<notas.length;i++){
+        if (notas[i][1]>6){
+        aprobados=aprobados+1
+    final[aprobados-1]=notas[i][0]}
+    }
+
+console.log(aprobados)
+console.log(notas[0][1])
+console.log(final)
+
+document.write("Los alumnos aprobados fueron"+"<br/>"+"<br/>")
+document.write(final)
+    </script>
+
+
+</body>
+</html>
